@@ -8,5 +8,5 @@ All The level
 ![](Images/Screen1.png)
 
 GamePlay Screenshot
-![](Images/Screens2.png)
+![](Images/Screen2.png)
 
