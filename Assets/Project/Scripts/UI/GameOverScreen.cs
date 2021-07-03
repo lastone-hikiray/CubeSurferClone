@@ -34,12 +34,10 @@ public class GameOverScreen : MonoBehaviour
     private void OnDied()
     {
         gameOverGroup.alpha = 1;
-        //Time.timeScale = 0;
     }
 
     private void OnRestartButtonClick()
     {
-        //Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
 
