@@ -7,6 +7,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public event Action Died;
+    public event Action LevelPassed;
     [SerializeField] private int startCount;
     private CubesPool pool;
 
@@ -20,7 +21,13 @@ public class Player : MonoBehaviour
             pool.AddCube();
         }
     }
-
+    public void LevelCompleteT(float PassedT)
+    {
+        if (PassedT >= 1)
+        {
+            Died?.Invoke();
+        }
+    }
     private void OnEnable()
     {
         pool.CubesCountChainged += OnCubesCountChaing;
@@ -43,6 +50,5 @@ public class Player : MonoBehaviour
     private void Die()
     {
         Died?.Invoke();
-
     }
 }

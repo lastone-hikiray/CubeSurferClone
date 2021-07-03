@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Player))]
 [RequireComponent(typeof(HorizontalMover))]
 public class PlayerInput : MonoBehaviour
 {
     [SerializeField] private float ScreenPart = 0.3f;
     [SerializeField] private HorizontalMover playerMover;
+    [SerializeField] private Player player;
 
     private float joysticCenter;
     private float screenWidth = Screen.width;
@@ -14,6 +16,10 @@ public class PlayerInput : MonoBehaviour
 
     void Update()
     {
+        if (true)
+        {
+
+        }
         if (Input.GetMouseButtonDown(0))
         {
             joysticCenter = Input.mousePosition.x - playerMover.targetPositionX * JoystickToScreenPoint;

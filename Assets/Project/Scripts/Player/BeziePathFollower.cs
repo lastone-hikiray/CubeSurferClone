@@ -18,7 +18,8 @@ public class BeziePathFollower : MonoBehaviour
     private void Update()
     {
         SetNextPosition();
-        SetNextRotation(); 
+        SetNextRotation();
+        player.LevelCompleteT(PassedT);
     }
 
     private void OnEnable()
