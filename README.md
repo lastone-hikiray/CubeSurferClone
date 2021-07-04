@@ -32,3 +32,13 @@ Also, there is a bezier curve at the level indicating the direction.
 
 Now let's talk a little about the player.
 ![](Images/8.png)
+
+Тhis is his scene hierarchy.
+![](Images/9.png)
+
+* At the root is the PathFollower, when the game starts it starts to follow the path of the curve.
+* * In his childe is a player, he has a component HorizontalMover that takes input from the joystick and moves the player to the left 
+* * and right in local coordinates.
+* * * And also in Player childrens we have:
+* * * CubesPool, which stores and can create CollectedCubes when told to do so.
+* * * 
