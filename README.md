@@ -8,16 +8,16 @@ CubeSurferClone is a clone of the game from Playmarket:
 ![](Images/Gif.gif)
 
 I'll start with a description of the level:
-![](Images/1.gif)
+![](Images/1.png)
 
 The entire level consists of only 3 components.
 
 The Road
-![](Images/2.gif)
+![](Images/2.png)
 
 The Walls
-![](Images/3.gif)
+![](Images/3.png)
 
 And cubes that we can collect
-![](Images/4.gif)
+![](Images/4.png)
 
