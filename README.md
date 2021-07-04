@@ -8,6 +8,7 @@ CubeSurferClone is a clone of the game from Playmarket:
 ![](Images/Gif.gif)
 
 I'll start with a description of the level:
+
 ![](Images/1.png)
 
 The entire level consists of only 3 components.
