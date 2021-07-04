@@ -8,6 +8,7 @@ public class CubesPool : MonoBehaviour
     public event Action<int> CubesCountChainged;
 
     [SerializeField] private CollectedCube cubePrefab;
+    [SerializeField] private Transform CubeSpawnPosition;
 
     private List<CollectedCube> attachedCubes = new List<CollectedCube>();
     private Queue<CollectedCube> unusedCubes = new Queue<CollectedCube>();
@@ -44,14 +45,9 @@ public class CubesPool : MonoBehaviour
 
     private Vector3 GetLocalSpawnPosition()
     {
-        if (attachedCubes.Count != 0)
-        {
-            return attachedCubes[cubesCount - 1].transform.localPosition + new Vector3(0, 1, 0);
-        }
-        else
-        {
-            return new Vector3(0, 0, 0);
-        }
+        Vector3 spawnPoint = CubeSpawnPosition.localPosition;
+        CubeSpawnPosition.localPosition += Vector3.up;
+        return spawnPoint;
     }
 
     private bool TryGetUnusedCube(out CollectedCube cube)
