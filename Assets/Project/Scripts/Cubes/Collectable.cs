@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
-    
+    //tag component
 }
