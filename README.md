@@ -2,11 +2,22 @@
 
 The project uses Unity-2021.1.12.f1
 
-Use your mouse to move the player, collect Yellow cubes and dodge the walls
+CubeSurferClone is a clone of the game from Playmarket:
+ https://play.google.com/store/apps/details?id=com.Atinon.PassOver
 
-All The level
 ![](Images/Gif.gif)
 
-GamePlay Screenshot
-![](Images/Screen2.png)
+I'll start with a description of the level:
+![](Images/1.gif)
+
+The entire level consists of only 3 components.
+
+The Road
+![](Images/2.gif)
+
+The Walls
+![](Images/3.gif)
+
+And cubes that we can collect
+![](Images/4.gif)
 
