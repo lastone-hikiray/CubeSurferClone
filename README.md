@@ -53,6 +53,7 @@ Now let's talk a little about the player.
 	and right in local coordinates.
 
 	And also in Player childrance we have:
+	
 	CubesPool, which stores and can create CollectedCubes when told to do so.
 	PlayerModel, it stores the 3d model of the player, in our case it is a ball.
 	CollectableCubeFinder, which has a Trigger Collider and when it collides with CollectableCube then destroys it and tells the pool to create a CollectedCube
