@@ -44,11 +44,11 @@ Now let's talk a little about the player.
 	Player has a component HorizontalMover that takes input from the joystick and moves the player to the left 
 	and right in local coordinates.
 
-		And also in Player childrance we have:
-		CubesPool, which stores and can create CollectedCubes when told to do so.
-		PlayerModel, it stores the 3d model of the player, in our case it is a ball.
-		CollectableCubeFinder, which has a Trigger Collider and when it collides with CollectableCube then destroys it and tells the pool to create a CollectedCube
-		Tail, only draws an orange tail after the player.
+	And also in Player childrance we have:
+	CubesPool, which stores and can create CollectedCubes when told to do so.
+	PlayerModel, it stores the 3d model of the player, in our case it is a ball.
+	CollectableCubeFinder, which has a Trigger Collider and when it collides with CollectableCube then destroys it and tells the pool to create a CollectedCube
+	Tail, only draws an orange tail after the player.
 
 
 Let me remind you that the physics in the project is optimized and all unnecessary collisions are disabled, but all the necessary checks in OnTriggerEnters are still performed.
