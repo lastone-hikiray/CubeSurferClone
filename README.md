@@ -24,3 +24,11 @@ And cubes that we can collect.
 I optimized the walls a little, making them prefabs, and combining the colliders of all cubes.
 ![](Images/5.png)
 ![](Images/6.png)
+
+Also, there is a bezier curve at the level indicating the direction.
+![](Images/7.png)
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Now let's talk a little about the player.
+![](Images/8.png)
