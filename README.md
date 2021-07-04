@@ -12,12 +12,15 @@ I'll start with a description of the level:
 
 The entire level consists of only 3 components.
 
-The Road
+The Road.
 ![](Images/2.png)
 
-The Walls
+The Walls.
 ![](Images/3.png)
 
-And cubes that we can collect
+And cubes that we can collect.
 ![](Images/4.png)
 
+I optimized the walls a little, making them prefabs, and combining the colliders of all cubes.
+![](Images/5.png)
+![](Images/6.png)
