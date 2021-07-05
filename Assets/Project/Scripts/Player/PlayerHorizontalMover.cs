@@ -5,7 +5,6 @@ using UnityEngine;
 [RequireComponent(typeof(Player))]
 public class PlayerHorizontalMover : MonoBehaviour
 {
-
     [SerializeField] private SliderJoystick sliderJoystick;
     [SerializeField] private Transform cachedTransform;
     [SerializeField] private float moveFromCenter = 2f;

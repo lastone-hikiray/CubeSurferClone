@@ -5,7 +5,7 @@ The project uses Unity-2021.1.12.f1
 CubeSurferClone is a clone of the game from Playmarket:
  https://play.google.com/store/apps/details?id=com.Atinon.PassOver
 
-![](Images/Gif.gif)
+![](Images/Video.mp4)
 
 I'll start with a description of the level:
 
